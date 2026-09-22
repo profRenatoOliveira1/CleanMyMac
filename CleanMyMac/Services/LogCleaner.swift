@@ -4,23 +4,27 @@ struct LogCleaner: Cleaner {
     let category: CleaningCategory = .logs
 
     private let directory: URL?
+    private let minimumAgeDays: Int?
 
-    init(directory: URL? = LogCleaner.defaultLogsDirectory()) {
+    init(
+        directory: URL? = LogCleaner.defaultLogsDirectory(),
+        minimumAgeDays: Int? = nil
+    ) {
         self.directory = directory
+        self.minimumAgeDays = minimumAgeDays
     }
 
     func scan() async -> ScanResult {
-        guard let directory, FileManager.default.fileExists(atPath: directory.path) else {
-            return ScanResult(category: category, sizeBytes: 0, status: .unavailable, itemCount: 0)
-        }
+        DirectoryScanner.scanResult(for: .logs, at: directory, options: scanOptions)
+    }
 
-        let scanned = DirectoryScanner.scanSize(of: directory)
-        return ScanResult(
-            category: category,
-            sizeBytes: scanned.sizeBytes,
-            status: .completed,
-            itemCount: scanned.itemCount
-        )
+    func clean() async throws -> CleanResult {
+        guard let directory else { throw CleanerError.noDirectory }
+        return try DirectoryScanner.removeEligibleContents(of: directory, options: scanOptions)
+    }
+
+    private var scanOptions: ScanOptions {
+        ScanOptions(minimumAgeDays: minimumAgeDays)
     }
 
     private static func defaultLogsDirectory() -> URL? {

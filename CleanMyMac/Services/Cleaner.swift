@@ -8,11 +8,11 @@ protocol Cleaner: Sendable {
     func scan() async -> ScanResult
 
     /// Removes the scanned contents. Confirmation must happen before calling.
-    func clean() async throws
+    func clean() async throws -> CleanResult
 }
 
 extension Cleaner {
-    func clean() async throws {
+    func clean() async throws -> CleanResult {
         throw CleanerError.notImplemented
     }
 }

@@ -4,22 +4,34 @@ struct CacheCleaner: Cleaner {
     let category: CleaningCategory = .caches
 
     private let directory: URL?
+    private let preserveSystemCaches: Bool
+    private let minimumAgeDays: Int?
 
-    init(directory: URL? = CacheCleaner.defaultCachesDirectory()) {
+    init(
+        directory: URL? = CacheCleaner.defaultCachesDirectory(),
+        preserveSystemCaches: Bool = true,
+        minimumAgeDays: Int? = 7
+    ) {
         self.directory = directory
+        self.preserveSystemCaches = preserveSystemCaches
+        self.minimumAgeDays = minimumAgeDays
     }
 
     func scan() async -> ScanResult {
-        guard let directory, FileManager.default.fileExists(atPath: directory.path) else {
-            return ScanResult(category: category, sizeBytes: 0, status: .unavailable, itemCount: 0)
-        }
+        DirectoryScanner.scanResult(for: .caches, at: directory, options: scanOptions)
+    }
 
-        let scanned = DirectoryScanner.scanSize(of: directory)
-        return ScanResult(
-            category: category,
-            sizeBytes: scanned.sizeBytes,
-            status: .completed,
-            itemCount: scanned.itemCount
+    func clean() async throws -> CleanResult {
+        guard let directory else { throw CleanerError.noDirectory }
+        let result = try DirectoryScanner.removeEligibleContents(of: directory, options: scanOptions)
+        DirectoryScanner.removeEmptyDirectories(in: directory)
+        return result
+    }
+
+    private var scanOptions: ScanOptions {
+        ScanOptions(
+            minimumAgeDays: minimumAgeDays,
+            excludedTopLevelPrefixes: preserveSystemCaches ? ["com.apple."] : []
         )
     }
 

@@ -5,8 +5,32 @@ import Foundation
 final class ScanManager: ObservableObject {
     @Published private(set) var results: [ScanResult]
     @Published private(set) var isScanning = false
+    @Published var includeStoppedDockerContainers = false {
+        didSet {
+            guard oldValue != includeStoppedDockerContainers else { return }
+            Task { [weak self] in
+                await self?.scanCategory(.docker)
+            }
+        }
+    }
+    @Published var preserveSystemCaches = true {
+        didSet {
+            guard oldValue != preserveSystemCaches else { return }
+            Task { [weak self] in
+                await self?.scanCategory(.caches)
+            }
+        }
+    }
+    @Published var tempMinimumAgeDays: Int? = 7 {
+        didSet {
+            guard oldValue != tempMinimumAgeDays else { return }
+            Task { [weak self] in
+                await self?.scanCategory(.tempFiles)
+            }
+        }
+    }
 
-    private let cleaners: [any Cleaner]
+    private let injectedCleaners: [any Cleaner]?
 
     var totalSizeBytes: Int64 {
         results
@@ -14,19 +38,32 @@ final class ScanManager: ObservableObject {
             .reduce(0) { $0 + $1.sizeBytes }
     }
 
-    init(cleaners: [any Cleaner]) {
-        self.cleaners = cleaners
+    init(cleaners: [any Cleaner]? = nil) {
+        self.injectedCleaners = cleaners
         self.results = CleaningCategory.allCases.map { ScanResult.empty(for: $0) }
-    }
-
-    convenience init() {
-        self.init(cleaners: ScanManager.defaultCleaners())
     }
 
     func scanAll() async {
         isScanning = true
         defer { isScanning = false }
+        await scan(injectedCleaners ?? makeCleaners())
+    }
 
+    func clean(_ category: CleaningCategory) async throws -> CleanResult {
+        guard let cleaner = cleaner(for: category) else {
+            throw CleanerError.cleaningFailed("Categoria sem cleaner configurado.")
+        }
+        let result = try await cleaner.clean()
+        await scanCategory(category)
+        return result
+    }
+
+    private func scanCategory(_ category: CleaningCategory) async {
+        guard let cleaner = cleaner(for: category) else { return }
+        await scan(cleaner)
+    }
+
+    private func scan(_ cleaners: [any Cleaner]) async {
         await withTaskGroup(of: (CleaningCategory, ScanResult).self) { group in
             for cleaner in cleaners {
                 let category = cleaner.category
@@ -42,18 +79,31 @@ final class ScanManager: ObservableObject {
         }
     }
 
+    private func scan(_ cleaner: any Cleaner) async {
+        let result = await cleaner.scan()
+        update(result, for: cleaner.category)
+    }
+
     private func update(_ result: ScanResult, for category: CleaningCategory) {
         guard let index = results.firstIndex(where: { $0.category == category }) else { return }
         results[index] = result
     }
 
-    private static func defaultCleaners() -> [any Cleaner] {
+    private func cleaner(for category: CleaningCategory) -> (any Cleaner)? {
+        if let injectedCleaners,
+           let match = injectedCleaners.first(where: { $0.category == category }) {
+            return match
+        }
+        return makeCleaners().first { $0.category == category }
+    }
+
+    private func makeCleaners() -> [any Cleaner] {
         [
-            CacheCleaner(),
+            CacheCleaner(preserveSystemCaches: preserveSystemCaches),
             LogCleaner(),
-            TempFilesCleaner(),
+            TempFilesCleaner(minimumAgeDays: tempMinimumAgeDays),
             TrashCleaner(),
-            DockerCleaner(),
+            DockerCleaner(includeStoppedContainers: includeStoppedDockerContainers),
         ]
     }
 }

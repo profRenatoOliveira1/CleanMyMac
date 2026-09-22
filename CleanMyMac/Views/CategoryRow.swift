@@ -4,6 +4,12 @@ struct CategoryRow: View {
     let result: ScanResult
     let isScanning: Bool
 
+    var containerToggle: Binding<Bool>? = nil
+    var cachesToggle: Binding<Bool>? = nil
+    var tempToggle: Binding<Bool>? = nil
+    var isCleaning = false
+    var onClean: () -> Void = {}
+
     var body: some View {
         HStack(spacing: 12) {
             Image(systemName: result.category.systemImage)
@@ -18,10 +24,55 @@ struct CategoryRow: View {
                     .font(.caption)
                     .foregroundStyle(.secondary)
             }
+
             Spacer()
+
+            toggles
+
+            if result.status == .completed {
+                Button("Limpar", action: onClean)
+                    .controlSize(.small)
+                    .disabled(isScanning || isCleaning)
+            }
+
             statusView
         }
         .padding(.vertical, 4)
+    }
+
+    @ViewBuilder
+    private var toggles: some View {
+        if let containerToggle {
+            Toggle(isOn: containerToggle) {
+                Text("Contêineres parados")
+            }
+            .toggleStyle(.switch)
+            .controlSize(.small)
+            .help("Incluir contêineres parados no espaço recuperável")
+            .fixedSize()
+        }
+
+        if let cachesToggle {
+            Toggle(isOn: cachesToggle) {
+                Text("Preservar caches do sistema")
+                    .font(.caption)
+            }
+            .toggleStyle(.switch)
+            .controlSize(.small)
+            .help("Ao ligar, caches com prefixo com.apple. são preservados")
+            .fixedSize()
+        }
+
+        if let tempToggle {
+            Toggle(isOn: tempToggle) {
+                Text("Limitar a arquivos antigos")
+                    .font(.caption)
+            }
+            .toggleStyle(.switch)
+            .controlSize(.small)
+            .help("Ao ligar, apenas arquivos com mais de 7 dias são limpos")
+            .fixedSize()
+        }
     }
 
     @ViewBuilder
@@ -64,12 +115,19 @@ struct CategoryRow: View {
     List {
         CategoryRow(
             result: ScanResult(category: .caches, sizeBytes: 2_147_483_648, status: .completed, itemCount: 120),
-            isScanning: false
+            isScanning: false,
+            cachesToggle: .constant(true)
         )
         CategoryRow(
-            result: ScanResult.empty(for: .docker),
-            isScanning: false
+            result: ScanResult(category: .tempFiles, sizeBytes: 890_400_000, status: .completed, itemCount: 2),
+            isScanning: false,
+            tempToggle: .constant(true)
+        )
+        CategoryRow(
+            result: ScanResult(category: .docker, sizeBytes: 890_400_000, status: .completed, itemCount: 2),
+            isScanning: false,
+            containerToggle: .constant(true)
         )
     }
-    .frame(width: 480)
+    .frame(width: 620)
 }

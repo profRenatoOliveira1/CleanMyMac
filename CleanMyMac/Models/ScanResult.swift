@@ -21,3 +21,8 @@ struct ScanResult: Identifiable, Equatable {
         ScanResult(category: category, sizeBytes: 0, status: .notScanned, itemCount: 0)
     }
 }
+
+struct CleanResult: Equatable {
+    var sizeBytes: Int64
+    var itemCount: Int
+}
