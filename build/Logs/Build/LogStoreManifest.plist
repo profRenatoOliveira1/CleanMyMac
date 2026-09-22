@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>logFormatVersion</key>
+	<integer>13</integer>
+	<key>logs</key>
+	<dict>
+		<key>BC7EA256-D897-4576-AAA7-EB5A4A77994B</key>
+		<dict>
+			<key>className</key>
+			<string>IDECommandLineBuildLog</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>BC7EA256-D897-4576-AAA7-EB5A4A77994B.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>0</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>0</integer>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>CleanMyMac project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>CleanMyMac</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Building project CleanMyMac with scheme CleanMyMac</string>
+			<key>timeStartedRecording</key>
+			<real>811791459.609864</real>
+			<key>timeStoppedRecording</key>
+			<real>811791468.20120394</real>
+			<key>title</key>
+			<string>Building project CleanMyMac with scheme CleanMyMac</string>
+			<key>uniqueIdentifier</key>
+			<string>BC7EA256-D897-4576-AAA7-EB5A4A77994B</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

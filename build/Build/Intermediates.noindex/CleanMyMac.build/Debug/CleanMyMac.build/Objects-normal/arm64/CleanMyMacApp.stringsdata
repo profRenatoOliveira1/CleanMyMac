@@ -1,0 +1,16 @@
+{
+  "source": "/Users/renato/workspace/macapps/CleanMyMac/CleanMyMac/CleanMyMacApp.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "CleanMyMac",
+        "location": {
+          "startingColumn": 21,
+          "startingLine": 6
+        }
+      }
+    ]
+  },
+  "version": 1
+}

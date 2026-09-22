@@ -1,0 +1,17 @@
+/Users/renato/workspace/macapps/CleanMyMac/CleanMyMac/Models/CleaningCategory.swift
+/Users/renato/workspace/macapps/CleanMyMac/CleanMyMac/Models/ScanResult.swift
+/Users/renato/workspace/macapps/CleanMyMac/CleanMyMac/Services/CacheCleaner.swift
+/Users/renato/workspace/macapps/CleanMyMac/CleanMyMac/Services/Cleaner.swift
+/Users/renato/workspace/macapps/CleanMyMac/CleanMyMac/Services/DirectoryScanner.swift
+/Users/renato/workspace/macapps/CleanMyMac/CleanMyMac/Services/DockerCleaner.swift
+/Users/renato/workspace/macapps/CleanMyMac/CleanMyMac/Services/LogCleaner.swift
+/Users/renato/workspace/macapps/CleanMyMac/CleanMyMac/Services/ProcessRunner.swift
+/Users/renato/workspace/macapps/CleanMyMac/CleanMyMac/Services/ScanManager.swift
+/Users/renato/workspace/macapps/CleanMyMac/CleanMyMac/Services/TempFilesCleaner.swift
+/Users/renato/workspace/macapps/CleanMyMac/CleanMyMac/Services/TrashCleaner.swift
+/Users/renato/workspace/macapps/CleanMyMac/CleanMyMac/Support/ByteFormatter.swift
+/Users/renato/workspace/macapps/CleanMyMac/CleanMyMac/Support/HumanSizeParser.swift
+/Users/renato/workspace/macapps/CleanMyMac/CleanMyMac/Views/CategoryRow.swift
+/Users/renato/workspace/macapps/CleanMyMac/CleanMyMac/Views/ContentView.swift
+/Users/renato/workspace/macapps/CleanMyMac/CleanMyMac/CleanMyMacApp.swift
+/Users/renato/workspace/macapps/CleanMyMac/build/Build/Intermediates.noindex/CleanMyMac.build/Debug/CleanMyMac.build/DerivedSources/GeneratedAssetSymbols.swift

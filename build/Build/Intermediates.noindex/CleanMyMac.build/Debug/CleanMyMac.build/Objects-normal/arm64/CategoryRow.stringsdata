@@ -1,0 +1,64 @@
+{
+  "source": "/Users/renato/workspace/macapps/CleanMyMac/CleanMyMac/Views/CategoryRow.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Limpar",
+        "location": {
+          "startingColumn": 24,
+          "startingLine": 33
+        }
+      },
+      {
+        "comment": "",
+        "key": "Incluir contêineres parados no espaço recuperável",
+        "location": {
+          "startingColumn": 19,
+          "startingLine": 51
+        }
+      },
+      {
+        "comment": "",
+        "key": "Ao ligar, caches com prefixo com.apple. são preservados",
+        "location": {
+          "startingColumn": 19,
+          "startingLine": 62
+        }
+      },
+      {
+        "comment": "",
+        "key": "Ao ligar, apenas arquivos com mais de 7 dias são limpos",
+        "location": {
+          "startingColumn": 19,
+          "startingLine": 73
+        }
+      },
+      {
+        "comment": "",
+        "key": "Contêineres parados",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 47
+        }
+      },
+      {
+        "comment": "",
+        "key": "Preservar caches do sistema",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 57
+        }
+      },
+      {
+        "comment": "",
+        "key": "Limitar a arquivos antigos",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 68
+        }
+      }
+    ]
+  },
+  "version": 1
+}

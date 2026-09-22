@@ -1,0 +1,179 @@
+{
+  "" : {
+    "diagnostics" : "/Users/renato/workspace/macapps/CleanMyMac/build/Build/Intermediates.noindex/CleanMyMac.build/Debug/CleanMyMac.build/Objects-normal/arm64/CleanMyMac-primary.dia",
+    "emit-module-dependencies" : "/Users/renato/workspace/macapps/CleanMyMac/build/Build/Intermediates.noindex/CleanMyMac.build/Debug/CleanMyMac.build/Objects-normal/arm64/CleanMyMac-primary-emit-module.d",
+    "emit-module-diagnostics" : "/Users/renato/workspace/macapps/CleanMyMac/build/Build/Intermediates.noindex/CleanMyMac.build/Debug/CleanMyMac.build/Objects-normal/arm64/CleanMyMac-primary-emit-module.dia",
+    "pch" : "/Users/renato/workspace/macapps/CleanMyMac/build/Build/Intermediates.noindex/CleanMyMac.build/Debug/CleanMyMac.build/Objects-normal/arm64/CleanMyMac-primary-Bridging-header.pch",
+    "swift-dependencies" : "/Users/renato/workspace/macapps/CleanMyMac/build/Build/Intermediates.noindex/CleanMyMac.build/Debug/CleanMyMac.build/Objects-normal/arm64/CleanMyMac-primary.swiftdeps"
+  },
+  "/Users/renato/workspace/macapps/CleanMyMac/CleanMyMac/CleanMyMacApp.swift" : {
+    "const-values" : "/Users/renato/workspace/macapps/CleanMyMac/build/Build/Intermediates.noindex/CleanMyMac.build/Debug/CleanMyMac.build/Objects-normal/arm64/CleanMyMacApp.swiftconstvalues",
+    "dependencies" : "/Users/renato/workspace/macapps/CleanMyMac/build/Build/Intermediates.noindex/CleanMyMac.build/Debug/CleanMyMac.build/Objects-normal/arm64/CleanMyMacApp.d",
+    "diagnostics" : "/Users/renato/workspace/macapps/CleanMyMac/build/Build/Intermediates.noindex/CleanMyMac.build/Debug/CleanMyMac.build/Objects-normal/arm64/CleanMyMacApp.dia",
+    "index-unit-output-path" : "/CleanMyMac.build/Debug/CleanMyMac.build/Objects-normal/arm64/CleanMyMacApp.o",
+    "llvm-bc" : "/Users/renato/workspace/macapps/CleanMyMac/build/Build/Intermediates.noindex/CleanMyMac.build/Debug/CleanMyMac.build/Objects-normal/arm64/CleanMyMacApp.bc",
+    "object" : "/Users/renato/workspace/macapps/CleanMyMac/build/Build/Intermediates.noindex/CleanMyMac.build/Debug/CleanMyMac.build/Objects-normal/arm64/CleanMyMacApp.o",
+    "swift-dependencies" : "/Users/renato/workspace/macapps/CleanMyMac/build/Build/Intermediates.noindex/CleanMyMac.build/Debug/CleanMyMac.build/Objects-normal/arm64/CleanMyMacApp.swiftdeps",
+    "swiftmodule" : "/Users/renato/workspace/macapps/CleanMyMac/build/Build/Intermediates.noindex/CleanMyMac.build/Debug/CleanMyMac.build/Objects-normal/arm64/CleanMyMacApp~partial.swiftmodule"
+  },
+  "/Users/renato/workspace/macapps/CleanMyMac/CleanMyMac/Models/CleaningCategory.swift" : {
+    "const-values" : "/Users/renato/workspace/macapps/CleanMyMac/build/Build/Intermediates.noindex/CleanMyMac.build/Debug/CleanMyMac.build/Objects-normal/arm64/CleaningCategory.swiftconstvalues",
+    "dependencies" : "/Users/renato/workspace/macapps/CleanMyMac/build/Build/Intermediates.noindex/CleanMyMac.build/Debug/CleanMyMac.build/Objects-normal/arm64/CleaningCategory.d",
+    "diagnostics" : "/Users/renato/workspace/macapps/CleanMyMac/build/Build/Intermediates.noindex/CleanMyMac.build/Debug/CleanMyMac.build/Objects-normal/arm64/CleaningCategory.dia",
+    "index-unit-output-path" : "/CleanMyMac.build/Debug/CleanMyMac.build/Objects-normal/arm64/CleaningCategory.o",
+    "llvm-bc" : "/Users/renato/workspace/macapps/CleanMyMac/build/Build/Intermediates.noindex/CleanMyMac.build/Debug/CleanMyMac.build/Objects-normal/arm64/CleaningCategory.bc",
+    "object" : "/Users/renato/workspace/macapps/CleanMyMac/build/Build/Intermediates.noindex/CleanMyMac.build/Debug/CleanMyMac.build/Objects-normal/arm64/CleaningCategory.o",
+    "swift-dependencies" : "/Users/renato/workspace/macapps/CleanMyMac/build/Build/Intermediates.noindex/CleanMyMac.build/Debug/CleanMyMac.build/Objects-normal/arm64/CleaningCategory.swiftdeps",
+    "swiftmodule" : "/Users/renato/workspace/macapps/CleanMyMac/build/Build/Intermediates.noindex/CleanMyMac.build/Debug/CleanMyMac.build/Objects-normal/arm64/CleaningCategory~partial.swiftmodule"
+  },
+  "/Users/renato/workspace/macapps/CleanMyMac/CleanMyMac/Models/ScanResult.swift" : {
+    "const-values" : "/Users/renato/workspace/macapps/CleanMyMac/build/Build/Intermediates.noindex/CleanMyMac.build/Debug/CleanMyMac.build/Objects-normal/arm64/ScanResult.swiftconstvalues",
+    "dependencies" : "/Users/renato/workspace/macapps/CleanMyMac/build/Build/Intermediates.noindex/CleanMyMac.build/Debug/CleanMyMac.build/Objects-normal/arm64/ScanResult.d",
+    "diagnostics" : "/Users/renato/workspace/macapps/CleanMyMac/build/Build/Intermediates.noindex/CleanMyMac.build/Debug/CleanMyMac.build/Objects-normal/arm64/ScanResult.dia",
+    "index-unit-output-path" : "/CleanMyMac.build/Debug/CleanMyMac.build/Objects-normal/arm64/ScanResult.o",
+    "llvm-bc" : "/Users/renato/workspace/macapps/CleanMyMac/build/Build/Intermediates.noindex/CleanMyMac.build/Debug/CleanMyMac.build/Objects-normal/arm64/ScanResult.bc",
+    "object" : "/Users/renato/workspace/macapps/CleanMyMac/build/Build/Intermediates.noindex/CleanMyMac.build/Debug/CleanMyMac.build/Objects-normal/arm64/ScanResult.o",
+    "swift-dependencies" : "/Users/renato/workspace/macapps/CleanMyMac/build/Build/Intermediates.noindex/CleanMyMac.build/Debug/CleanMyMac.build/Objects-normal/arm64/ScanResult.swiftdeps",
+    "swiftmodule" : "/Users/renato/workspace/macapps/CleanMyMac/build/Build/Intermediates.noindex/CleanMyMac.build/Debug/CleanMyMac.build/Objects-normal/arm64/ScanResult~partial.swiftmodule"
+  },
+  "/Users/renato/workspace/macapps/CleanMyMac/CleanMyMac/Services/CacheCleaner.swift" : {
+    "const-values" : "/Users/renato/workspace/macapps/CleanMyMac/build/Build/Intermediates.noindex/CleanMyMac.build/Debug/CleanMyMac.build/Objects-normal/arm64/CacheCleaner.swiftconstvalues",
+    "dependencies" : "/Users/renato/workspace/macapps/CleanMyMac/build/Build/Intermediates.noindex/CleanMyMac.build/Debug/CleanMyMac.build/Objects-normal/arm64/CacheCleaner.d",
+    "diagnostics" : "/Users/renato/workspace/macapps/CleanMyMac/build/Build/Intermediates.noindex/CleanMyMac.build/Debug/CleanMyMac.build/Objects-normal/arm64/CacheCleaner.dia",
+    "index-unit-output-path" : "/CleanMyMac.build/Debug/CleanMyMac.build/Objects-normal/arm64/CacheCleaner.o",
+    "llvm-bc" : "/Users/renato/workspace/macapps/CleanMyMac/build/Build/Intermediates.noindex/CleanMyMac.build/Debug/CleanMyMac.build/Objects-normal/arm64/CacheCleaner.bc",
+    "object" : "/Users/renato/workspace/macapps/CleanMyMac/build/Build/Intermediates.noindex/CleanMyMac.build/Debug/CleanMyMac.build/Objects-normal/arm64/CacheCleaner.o",
+    "swift-dependencies" : "/Users/renato/workspace/macapps/CleanMyMac/build/Build/Intermediates.noindex/CleanMyMac.build/Debug/CleanMyMac.build/Objects-normal/arm64/CacheCleaner.swiftdeps",
+    "swiftmodule" : "/Users/renato/workspace/macapps/CleanMyMac/build/Build/Intermediates.noindex/CleanMyMac.build/Debug/CleanMyMac.build/Objects-normal/arm64/CacheCleaner~partial.swiftmodule"
+  },
+  "/Users/renato/workspace/macapps/CleanMyMac/CleanMyMac/Services/Cleaner.swift" : {
+    "const-values" : "/Users/renato/workspace/macapps/CleanMyMac/build/Build/Intermediates.noindex/CleanMyMac.build/Debug/CleanMyMac.build/Objects-normal/arm64/Cleaner.swiftconstvalues",
+    "dependencies" : "/Users/renato/workspace/macapps/CleanMyMac/build/Build/Intermediates.noindex/CleanMyMac.build/Debug/CleanMyMac.build/Objects-normal/arm64/Cleaner.d",
+    "diagnostics" : "/Users/renato/workspace/macapps/CleanMyMac/build/Build/Intermediates.noindex/CleanMyMac.build/Debug/CleanMyMac.build/Objects-normal/arm64/Cleaner.dia",
+    "index-unit-output-path" : "/CleanMyMac.build/Debug/CleanMyMac.build/Objects-normal/arm64/Cleaner.o",
+    "llvm-bc" : "/Users/renato/workspace/macapps/CleanMyMac/build/Build/Intermediates.noindex/CleanMyMac.build/Debug/CleanMyMac.build/Objects-normal/arm64/Cleaner.bc",
+    "object" : "/Users/renato/workspace/macapps/CleanMyMac/build/Build/Intermediates.noindex/CleanMyMac.build/Debug/CleanMyMac.build/Objects-normal/arm64/Cleaner.o",
+    "swift-dependencies" : "/Users/renato/workspace/macapps/CleanMyMac/build/Build/Intermediates.noindex/CleanMyMac.build/Debug/CleanMyMac.build/Objects-normal/arm64/Cleaner.swiftdeps",
+    "swiftmodule" : "/Users/renato/workspace/macapps/CleanMyMac/build/Build/Intermediates.noindex/CleanMyMac.build/Debug/CleanMyMac.build/Objects-normal/arm64/Cleaner~partial.swiftmodule"
+  },
+  "/Users/renato/workspace/macapps/CleanMyMac/CleanMyMac/Services/DirectoryScanner.swift" : {
+    "const-values" : "/Users/renato/workspace/macapps/CleanMyMac/build/Build/Intermediates.noindex/CleanMyMac.build/Debug/CleanMyMac.build/Objects-normal/arm64/DirectoryScanner.swiftconstvalues",
+    "dependencies" : "/Users/renato/workspace/macapps/CleanMyMac/build/Build/Intermediates.noindex/CleanMyMac.build/Debug/CleanMyMac.build/Objects-normal/arm64/DirectoryScanner.d",
+    "diagnostics" : "/Users/renato/workspace/macapps/CleanMyMac/build/Build/Intermediates.noindex/CleanMyMac.build/Debug/CleanMyMac.build/Objects-normal/arm64/DirectoryScanner.dia",
+    "index-unit-output-path" : "/CleanMyMac.build/Debug/CleanMyMac.build/Objects-normal/arm64/DirectoryScanner.o",
+    "llvm-bc" : "/Users/renato/workspace/macapps/CleanMyMac/build/Build/Intermediates.noindex/CleanMyMac.build/Debug/CleanMyMac.build/Objects-normal/arm64/DirectoryScanner.bc",
+    "object" : "/Users/renato/workspace/macapps/CleanMyMac/build/Build/Intermediates.noindex/CleanMyMac.build/Debug/CleanMyMac.build/Objects-normal/arm64/DirectoryScanner.o",
+    "swift-dependencies" : "/Users/renato/workspace/macapps/CleanMyMac/build/Build/Intermediates.noindex/CleanMyMac.build/Debug/CleanMyMac.build/Objects-normal/arm64/DirectoryScanner.swiftdeps",
+    "swiftmodule" : "/Users/renato/workspace/macapps/CleanMyMac/build/Build/Intermediates.noindex/CleanMyMac.build/Debug/CleanMyMac.build/Objects-normal/arm64/DirectoryScanner~partial.swiftmodule"
+  },
+  "/Users/renato/workspace/macapps/CleanMyMac/CleanMyMac/Services/DockerCleaner.swift" : {
+    "const-values" : "/Users/renato/workspace/macapps/CleanMyMac/build/Build/Intermediates.noindex/CleanMyMac.build/Debug/CleanMyMac.build/Objects-normal/arm64/DockerCleaner.swiftconstvalues",
+    "dependencies" : "/Users/renato/workspace/macapps/CleanMyMac/build/Build/Intermediates.noindex/CleanMyMac.build/Debug/CleanMyMac.build/Objects-normal/arm64/DockerCleaner.d",
+    "diagnostics" : "/Users/renato/workspace/macapps/CleanMyMac/build/Build/Intermediates.noindex/CleanMyMac.build/Debug/CleanMyMac.build/Objects-normal/arm64/DockerCleaner.dia",
+    "index-unit-output-path" : "/CleanMyMac.build/Debug/CleanMyMac.build/Objects-normal/arm64/DockerCleaner.o",
+    "llvm-bc" : "/Users/renato/workspace/macapps/CleanMyMac/build/Build/Intermediates.noindex/CleanMyMac.build/Debug/CleanMyMac.build/Objects-normal/arm64/DockerCleaner.bc",
+    "object" : "/Users/renato/workspace/macapps/CleanMyMac/build/Build/Intermediates.noindex/CleanMyMac.build/Debug/CleanMyMac.build/Objects-normal/arm64/DockerCleaner.o",
+    "swift-dependencies" : "/Users/renato/workspace/macapps/CleanMyMac/build/Build/Intermediates.noindex/CleanMyMac.build/Debug/CleanMyMac.build/Objects-normal/arm64/DockerCleaner.swiftdeps",
+    "swiftmodule" : "/Users/renato/workspace/macapps/CleanMyMac/build/Build/Intermediates.noindex/CleanMyMac.build/Debug/CleanMyMac.build/Objects-normal/arm64/DockerCleaner~partial.swiftmodule"
+  },
+  "/Users/renato/workspace/macapps/CleanMyMac/CleanMyMac/Services/LogCleaner.swift" : {
+    "const-values" : "/Users/renato/workspace/macapps/CleanMyMac/build/Build/Intermediates.noindex/CleanMyMac.build/Debug/CleanMyMac.build/Objects-normal/arm64/LogCleaner.swiftconstvalues",
+    "dependencies" : "/Users/renato/workspace/macapps/CleanMyMac/build/Build/Intermediates.noindex/CleanMyMac.build/Debug/CleanMyMac.build/Objects-normal/arm64/LogCleaner.d",
+    "diagnostics" : "/Users/renato/workspace/macapps/CleanMyMac/build/Build/Intermediates.noindex/CleanMyMac.build/Debug/CleanMyMac.build/Objects-normal/arm64/LogCleaner.dia",
+    "index-unit-output-path" : "/CleanMyMac.build/Debug/CleanMyMac.build/Objects-normal/arm64/LogCleaner.o",
+    "llvm-bc" : "/Users/renato/workspace/macapps/CleanMyMac/build/Build/Intermediates.noindex/CleanMyMac.build/Debug/CleanMyMac.build/Objects-normal/arm64/LogCleaner.bc",
+    "object" : "/Users/renato/workspace/macapps/CleanMyMac/build/Build/Intermediates.noindex/CleanMyMac.build/Debug/CleanMyMac.build/Objects-normal/arm64/LogCleaner.o",
+    "swift-dependencies" : "/Users/renato/workspace/macapps/CleanMyMac/build/Build/Intermediates.noindex/CleanMyMac.build/Debug/CleanMyMac.build/Objects-normal/arm64/LogCleaner.swiftdeps",
+    "swiftmodule" : "/Users/renato/workspace/macapps/CleanMyMac/build/Build/Intermediates.noindex/CleanMyMac.build/Debug/CleanMyMac.build/Objects-normal/arm64/LogCleaner~partial.swiftmodule"
+  },
+  "/Users/renato/workspace/macapps/CleanMyMac/CleanMyMac/Services/ProcessRunner.swift" : {
+    "const-values" : "/Users/renato/workspace/macapps/CleanMyMac/build/Build/Intermediates.noindex/CleanMyMac.build/Debug/CleanMyMac.build/Objects-normal/arm64/ProcessRunner.swiftconstvalues",
+    "dependencies" : "/Users/renato/workspace/macapps/CleanMyMac/build/Build/Intermediates.noindex/CleanMyMac.build/Debug/CleanMyMac.build/Objects-normal/arm64/ProcessRunner.d",
+    "diagnostics" : "/Users/renato/workspace/macapps/CleanMyMac/build/Build/Intermediates.noindex/CleanMyMac.build/Debug/CleanMyMac.build/Objects-normal/arm64/ProcessRunner.dia",
+    "index-unit-output-path" : "/CleanMyMac.build/Debug/CleanMyMac.build/Objects-normal/arm64/ProcessRunner.o",
+    "llvm-bc" : "/Users/renato/workspace/macapps/CleanMyMac/build/Build/Intermediates.noindex/CleanMyMac.build/Debug/CleanMyMac.build/Objects-normal/arm64/ProcessRunner.bc",
+    "object" : "/Users/renato/workspace/macapps/CleanMyMac/build/Build/Intermediates.noindex/CleanMyMac.build/Debug/CleanMyMac.build/Objects-normal/arm64/ProcessRunner.o",
+    "swift-dependencies" : "/Users/renato/workspace/macapps/CleanMyMac/build/Build/Intermediates.noindex/CleanMyMac.build/Debug/CleanMyMac.build/Objects-normal/arm64/ProcessRunner.swiftdeps",
+    "swiftmodule" : "/Users/renato/workspace/macapps/CleanMyMac/build/Build/Intermediates.noindex/CleanMyMac.build/Debug/CleanMyMac.build/Objects-normal/arm64/ProcessRunner~partial.swiftmodule"
+  },
+  "/Users/renato/workspace/macapps/CleanMyMac/CleanMyMac/Services/ScanManager.swift" : {
+    "const-values" : "/Users/renato/workspace/macapps/CleanMyMac/build/Build/Intermediates.noindex/CleanMyMac.build/Debug/CleanMyMac.build/Objects-normal/arm64/ScanManager.swiftconstvalues",
+    "dependencies" : "/Users/renato/workspace/macapps/CleanMyMac/build/Build/Intermediates.noindex/CleanMyMac.build/Debug/CleanMyMac.build/Objects-normal/arm64/ScanManager.d",
+    "diagnostics" : "/Users/renato/workspace/macapps/CleanMyMac/build/Build/Intermediates.noindex/CleanMyMac.build/Debug/CleanMyMac.build/Objects-normal/arm64/ScanManager.dia",
+    "index-unit-output-path" : "/CleanMyMac.build/Debug/CleanMyMac.build/Objects-normal/arm64/ScanManager.o",
+    "llvm-bc" : "/Users/renato/workspace/macapps/CleanMyMac/build/Build/Intermediates.noindex/CleanMyMac.build/Debug/CleanMyMac.build/Objects-normal/arm64/ScanManager.bc",
+    "object" : "/Users/renato/workspace/macapps/CleanMyMac/build/Build/Intermediates.noindex/CleanMyMac.build/Debug/CleanMyMac.build/Objects-normal/arm64/ScanManager.o",
+    "swift-dependencies" : "/Users/renato/workspace/macapps/CleanMyMac/build/Build/Intermediates.noindex/CleanMyMac.build/Debug/CleanMyMac.build/Objects-normal/arm64/ScanManager.swiftdeps",
+    "swiftmodule" : "/Users/renato/workspace/macapps/CleanMyMac/build/Build/Intermediates.noindex/CleanMyMac.build/Debug/CleanMyMac.build/Objects-normal/arm64/ScanManager~partial.swiftmodule"
+  },
+  "/Users/renato/workspace/macapps/CleanMyMac/CleanMyMac/Services/TempFilesCleaner.swift" : {
+    "const-values" : "/Users/renato/workspace/macapps/CleanMyMac/build/Build/Intermediates.noindex/CleanMyMac.build/Debug/CleanMyMac.build/Objects-normal/arm64/TempFilesCleaner.swiftconstvalues",
+    "dependencies" : "/Users/renato/workspace/macapps/CleanMyMac/build/Build/Intermediates.noindex/CleanMyMac.build/Debug/CleanMyMac.build/Objects-normal/arm64/TempFilesCleaner.d",
+    "diagnostics" : "/Users/renato/workspace/macapps/CleanMyMac/build/Build/Intermediates.noindex/CleanMyMac.build/Debug/CleanMyMac.build/Objects-normal/arm64/TempFilesCleaner.dia",
+    "index-unit-output-path" : "/CleanMyMac.build/Debug/CleanMyMac.build/Objects-normal/arm64/TempFilesCleaner.o",
+    "llvm-bc" : "/Users/renato/workspace/macapps/CleanMyMac/build/Build/Intermediates.noindex/CleanMyMac.build/Debug/CleanMyMac.build/Objects-normal/arm64/TempFilesCleaner.bc",
+    "object" : "/Users/renato/workspace/macapps/CleanMyMac/build/Build/Intermediates.noindex/CleanMyMac.build/Debug/CleanMyMac.build/Objects-normal/arm64/TempFilesCleaner.o",
+    "swift-dependencies" : "/Users/renato/workspace/macapps/CleanMyMac/build/Build/Intermediates.noindex/CleanMyMac.build/Debug/CleanMyMac.build/Objects-normal/arm64/TempFilesCleaner.swiftdeps",
+    "swiftmodule" : "/Users/renato/workspace/macapps/CleanMyMac/build/Build/Intermediates.noindex/CleanMyMac.build/Debug/CleanMyMac.build/Objects-normal/arm64/TempFilesCleaner~partial.swiftmodule"
+  },
+  "/Users/renato/workspace/macapps/CleanMyMac/CleanMyMac/Services/TrashCleaner.swift" : {
+    "const-values" : "/Users/renato/workspace/macapps/CleanMyMac/build/Build/Intermediates.noindex/CleanMyMac.build/Debug/CleanMyMac.build/Objects-normal/arm64/TrashCleaner.swiftconstvalues",
+    "dependencies" : "/Users/renato/workspace/macapps/CleanMyMac/build/Build/Intermediates.noindex/CleanMyMac.build/Debug/CleanMyMac.build/Objects-normal/arm64/TrashCleaner.d",
+    "diagnostics" : "/Users/renato/workspace/macapps/CleanMyMac/build/Build/Intermediates.noindex/CleanMyMac.build/Debug/CleanMyMac.build/Objects-normal/arm64/TrashCleaner.dia",
+    "index-unit-output-path" : "/CleanMyMac.build/Debug/CleanMyMac.build/Objects-normal/arm64/TrashCleaner.o",
+    "llvm-bc" : "/Users/renato/workspace/macapps/CleanMyMac/build/Build/Intermediates.noindex/CleanMyMac.build/Debug/CleanMyMac.build/Objects-normal/arm64/TrashCleaner.bc",
+    "object" : "/Users/renato/workspace/macapps/CleanMyMac/build/Build/Intermediates.noindex/CleanMyMac.build/Debug/CleanMyMac.build/Objects-normal/arm64/TrashCleaner.o",
+    "swift-dependencies" : "/Users/renato/workspace/macapps/CleanMyMac/build/Build/Intermediates.noindex/CleanMyMac.build/Debug/CleanMyMac.build/Objects-normal/arm64/TrashCleaner.swiftdeps",
+    "swiftmodule" : "/Users/renato/workspace/macapps/CleanMyMac/build/Build/Intermediates.noindex/CleanMyMac.build/Debug/CleanMyMac.build/Objects-normal/arm64/TrashCleaner~partial.swiftmodule"
+  },
+  "/Users/renato/workspace/macapps/CleanMyMac/CleanMyMac/Support/ByteFormatter.swift" : {
+    "const-values" : "/Users/renato/workspace/macapps/CleanMyMac/build/Build/Intermediates.noindex/CleanMyMac.build/Debug/CleanMyMac.build/Objects-normal/arm64/ByteFormatter.swiftconstvalues",
+    "dependencies" : "/Users/renato/workspace/macapps/CleanMyMac/build/Build/Intermediates.noindex/CleanMyMac.build/Debug/CleanMyMac.build/Objects-normal/arm64/ByteFormatter.d",
+    "diagnostics" : "/Users/renato/workspace/macapps/CleanMyMac/build/Build/Intermediates.noindex/CleanMyMac.build/Debug/CleanMyMac.build/Objects-normal/arm64/ByteFormatter.dia",
+    "index-unit-output-path" : "/CleanMyMac.build/Debug/CleanMyMac.build/Objects-normal/arm64/ByteFormatter.o",
+    "llvm-bc" : "/Users/renato/workspace/macapps/CleanMyMac/build/Build/Intermediates.noindex/CleanMyMac.build/Debug/CleanMyMac.build/Objects-normal/arm64/ByteFormatter.bc",
+    "object" : "/Users/renato/workspace/macapps/CleanMyMac/build/Build/Intermediates.noindex/CleanMyMac.build/Debug/CleanMyMac.build/Objects-normal/arm64/ByteFormatter.o",
+    "swift-dependencies" : "/Users/renato/workspace/macapps/CleanMyMac/build/Build/Intermediates.noindex/CleanMyMac.build/Debug/CleanMyMac.build/Objects-normal/arm64/ByteFormatter.swiftdeps",
+    "swiftmodule" : "/Users/renato/workspace/macapps/CleanMyMac/build/Build/Intermediates.noindex/CleanMyMac.build/Debug/CleanMyMac.build/Objects-normal/arm64/ByteFormatter~partial.swiftmodule"
+  },
+  "/Users/renato/workspace/macapps/CleanMyMac/CleanMyMac/Support/HumanSizeParser.swift" : {
+    "const-values" : "/Users/renato/workspace/macapps/CleanMyMac/build/Build/Intermediates.noindex/CleanMyMac.build/Debug/CleanMyMac.build/Objects-normal/arm64/HumanSizeParser.swiftconstvalues",
+    "dependencies" : "/Users/renato/workspace/macapps/CleanMyMac/build/Build/Intermediates.noindex/CleanMyMac.build/Debug/CleanMyMac.build/Objects-normal/arm64/HumanSizeParser.d",
+    "diagnostics" : "/Users/renato/workspace/macapps/CleanMyMac/build/Build/Intermediates.noindex/CleanMyMac.build/Debug/CleanMyMac.build/Objects-normal/arm64/HumanSizeParser.dia",
+    "index-unit-output-path" : "/CleanMyMac.build/Debug/CleanMyMac.build/Objects-normal/arm64/HumanSizeParser.o",
+    "llvm-bc" : "/Users/renato/workspace/macapps/CleanMyMac/build/Build/Intermediates.noindex/CleanMyMac.build/Debug/CleanMyMac.build/Objects-normal/arm64/HumanSizeParser.bc",
+    "object" : "/Users/renato/workspace/macapps/CleanMyMac/build/Build/Intermediates.noindex/CleanMyMac.build/Debug/CleanMyMac.build/Objects-normal/arm64/HumanSizeParser.o",
+    "swift-dependencies" : "/Users/renato/workspace/macapps/CleanMyMac/build/Build/Intermediates.noindex/CleanMyMac.build/Debug/CleanMyMac.build/Objects-normal/arm64/HumanSizeParser.swiftdeps",
+    "swiftmodule" : "/Users/renato/workspace/macapps/CleanMyMac/build/Build/Intermediates.noindex/CleanMyMac.build/Debug/CleanMyMac.build/Objects-normal/arm64/HumanSizeParser~partial.swiftmodule"
+  },
+  "/Users/renato/workspace/macapps/CleanMyMac/CleanMyMac/Views/CategoryRow.swift" : {
+    "const-values" : "/Users/renato/workspace/macapps/CleanMyMac/build/Build/Intermediates.noindex/CleanMyMac.build/Debug/CleanMyMac.build/Objects-normal/arm64/CategoryRow.swiftconstvalues",
+    "dependencies" : "/Users/renato/workspace/macapps/CleanMyMac/build/Build/Intermediates.noindex/CleanMyMac.build/Debug/CleanMyMac.build/Objects-normal/arm64/CategoryRow.d",
+    "diagnostics" : "/Users/renato/workspace/macapps/CleanMyMac/build/Build/Intermediates.noindex/CleanMyMac.build/Debug/CleanMyMac.build/Objects-normal/arm64/CategoryRow.dia",
+    "index-unit-output-path" : "/CleanMyMac.build/Debug/CleanMyMac.build/Objects-normal/arm64/CategoryRow.o",
+    "llvm-bc" : "/Users/renato/workspace/macapps/CleanMyMac/build/Build/Intermediates.noindex/CleanMyMac.build/Debug/CleanMyMac.build/Objects-normal/arm64/CategoryRow.bc",
+    "object" : "/Users/renato/workspace/macapps/CleanMyMac/build/Build/Intermediates.noindex/CleanMyMac.build/Debug/CleanMyMac.build/Objects-normal/arm64/CategoryRow.o",
+    "swift-dependencies" : "/Users/renato/workspace/macapps/CleanMyMac/build/Build/Intermediates.noindex/CleanMyMac.build/Debug/CleanMyMac.build/Objects-normal/arm64/CategoryRow.swiftdeps",
+    "swiftmodule" : "/Users/renato/workspace/macapps/CleanMyMac/build/Build/Intermediates.noindex/CleanMyMac.build/Debug/CleanMyMac.build/Objects-normal/arm64/CategoryRow~partial.swiftmodule"
+  },
+  "/Users/renato/workspace/macapps/CleanMyMac/CleanMyMac/Views/ContentView.swift" : {
+    "const-values" : "/Users/renato/workspace/macapps/CleanMyMac/build/Build/Intermediates.noindex/CleanMyMac.build/Debug/CleanMyMac.build/Objects-normal/arm64/ContentView.swiftconstvalues",
+    "dependencies" : "/Users/renato/workspace/macapps/CleanMyMac/build/Build/Intermediates.noindex/CleanMyMac.build/Debug/CleanMyMac.build/Objects-normal/arm64/ContentView.d",
+    "diagnostics" : "/Users/renato/workspace/macapps/CleanMyMac/build/Build/Intermediates.noindex/CleanMyMac.build/Debug/CleanMyMac.build/Objects-normal/arm64/ContentView.dia",
+    "index-unit-output-path" : "/CleanMyMac.build/Debug/CleanMyMac.build/Objects-normal/arm64/ContentView.o",
+    "llvm-bc" : "/Users/renato/workspace/macapps/CleanMyMac/build/Build/Intermediates.noindex/CleanMyMac.build/Debug/CleanMyMac.build/Objects-normal/arm64/ContentView.bc",
+    "object" : "/Users/renato/workspace/macapps/CleanMyMac/build/Build/Intermediates.noindex/CleanMyMac.build/Debug/CleanMyMac.build/Objects-normal/arm64/ContentView.o",
+    "swift-dependencies" : "/Users/renato/workspace/macapps/CleanMyMac/build/Build/Intermediates.noindex/CleanMyMac.build/Debug/CleanMyMac.build/Objects-normal/arm64/ContentView.swiftdeps",
+    "swiftmodule" : "/Users/renato/workspace/macapps/CleanMyMac/build/Build/Intermediates.noindex/CleanMyMac.build/Debug/CleanMyMac.build/Objects-normal/arm64/ContentView~partial.swiftmodule"
+  },
+  "/Users/renato/workspace/macapps/CleanMyMac/build/Build/Intermediates.noindex/CleanMyMac.build/Debug/CleanMyMac.build/DerivedSources/GeneratedAssetSymbols.swift" : {
+    "const-values" : "/Users/renato/workspace/macapps/CleanMyMac/build/Build/Intermediates.noindex/CleanMyMac.build/Debug/CleanMyMac.build/Objects-normal/arm64/GeneratedAssetSymbols.swiftconstvalues",
+    "dependencies" : "/Users/renato/workspace/macapps/CleanMyMac/build/Build/Intermediates.noindex/CleanMyMac.build/Debug/CleanMyMac.build/Objects-normal/arm64/GeneratedAssetSymbols.d",
+    "diagnostics" : "/Users/renato/workspace/macapps/CleanMyMac/build/Build/Intermediates.noindex/CleanMyMac.build/Debug/CleanMyMac.build/Objects-normal/arm64/GeneratedAssetSymbols.dia",
+    "index-unit-output-path" : "/CleanMyMac.build/Debug/CleanMyMac.build/Objects-normal/arm64/GeneratedAssetSymbols.o",
+    "llvm-bc" : "/Users/renato/workspace/macapps/CleanMyMac/build/Build/Intermediates.noindex/CleanMyMac.build/Debug/CleanMyMac.build/Objects-normal/arm64/GeneratedAssetSymbols.bc",
+    "object" : "/Users/renato/workspace/macapps/CleanMyMac/build/Build/Intermediates.noindex/CleanMyMac.build/Debug/CleanMyMac.build/Objects-normal/arm64/GeneratedAssetSymbols.o",
+    "swift-dependencies" : "/Users/renato/workspace/macapps/CleanMyMac/build/Build/Intermediates.noindex/CleanMyMac.build/Debug/CleanMyMac.build/Objects-normal/arm64/GeneratedAssetSymbols.swiftdeps",
+    "swiftmodule" : "/Users/renato/workspace/macapps/CleanMyMac/build/Build/Intermediates.noindex/CleanMyMac.build/Debug/CleanMyMac.build/Objects-normal/arm64/GeneratedAssetSymbols~partial.swiftmodule"
+  }
+}

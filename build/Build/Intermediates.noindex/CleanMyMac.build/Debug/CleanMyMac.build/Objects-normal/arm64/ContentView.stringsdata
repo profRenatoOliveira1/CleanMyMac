@@ -1,0 +1,80 @@
+{
+  "source": "/Users/renato/workspace/macapps/CleanMyMac/CleanMyMac/Views/ContentView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Confirmar limpeza",
+        "location": {
+          "startingColumn": 13,
+          "startingLine": 20
+        }
+      },
+      {
+        "comment": "",
+        "key": "Limpeza concluída",
+        "location": {
+          "startingColumn": 13,
+          "startingLine": 32
+        }
+      },
+      {
+        "comment": "",
+        "key": "Cancelar",
+        "location": {
+          "startingColumn": 20,
+          "startingLine": 27
+        }
+      },
+      {
+        "comment": "",
+        "key": "OK",
+        "location": {
+          "startingColumn": 20,
+          "startingLine": 35
+        }
+      },
+      {
+        "comment": "",
+        "key": "CleanMyMac",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 68
+        }
+      },
+      {
+        "comment": "",
+        "key": "Escaneie o sistema para encontrar espaço recuperável.",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 70
+        }
+      },
+      {
+        "comment": "",
+        "key": "espaço recuperável",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 78
+        }
+      },
+      {
+        "comment": "",
+        "key": "Analisar",
+        "location": {
+          "startingColumn": 23,
+          "startingLine": 87
+        }
+      },
+      {
+        "comment": "",
+        "key": "Analisando…",
+        "location": {
+          "startingColumn": 34,
+          "startingLine": 112
+        }
+      }
+    ]
+  },
+  "version": 1
+}
